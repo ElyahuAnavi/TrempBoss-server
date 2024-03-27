@@ -40,7 +40,7 @@ TrempBoss leverages the MERN Stack, integrating various technologies for a seaml
 
 ### Prerequisites
 - Ensure you have Node.js and MongoDB installed.
-- Obtain necessary API keys (Google Maps, Firebase Admin).
+- Obtain necessary API keys (Firebase Admin).
 
 ### Installation
 1. Clone the repository:
@@ -64,7 +64,15 @@ TrempBoss leverages the MERN Stack, integrating various technologies for a seaml
   ```
 
 ## 📸 Screenshots
-Add your app screenshots here to showcase the app interface and functionality.
+![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/0ce4fbfc-d632-4e4b-8101-b3c0f8bd1e04)
+---
+![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/90a32a73-6384-4395-a79f-721e4934e505)
+---
+![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/0ed2a1cf-99ee-4264-87cb-93e02f655cfd)
+---
+![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/fe343be3-ee13-4cbf-888c-1b0073f643c4)
+---
+
 
 ## 📦 Dependencies
 
