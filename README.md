@@ -1,21 +1,32 @@
 
 ---
+# <img src="https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/826734b8-605d-4b3b-a5cb-c3af775eac77" width="50"> TrempBoss: A Rideshare Management App in Israel
 
-# 🚗 TrempBoss: A Rideshare Management App in Israel
+
 
 ## Table of Contents
 
 1. [About the Project](#-about-the-project)
-2. [Key Features](#-key-features)
-3. [Technologies and Structure](#-technologies-and-structure)
-4. [System Architecture](#-system-architecture)
-5. [Getting Started](#-getting-started)
-6. [Screenshots](#-screenshots)
+2. [Screenshots](#-screenshots)
+3. [Key Features](#-key-features)
+4. [Technologies and Structure](#-technologies-and-structure)
+5. [System Architecture](#-system-architecture)
+6. [Getting Started](#-getting-started)
 7. [Dependencies](#-dependencies)
 8. [Security](#-security)
 
 ## 📖 About the Project
 TrempBoss is an innovative 🌟 application designed to facilitate hitchhiking, known locally in Israel as "tremp." It streamlines the process of connecting drivers with passengers, offering a user-friendly platform for ride coordination, communication, and private ride-sharing group management.
+
+## 📸 Screenshots
+![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/0ce4fbfc-d632-4e4b-8101-b3c0f8bd1e04)
+---
+![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/90a32a73-6384-4395-a79f-721e4934e505)
+---
+![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/0ed2a1cf-99ee-4264-87cb-93e02f655cfd)
+---
+![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/fe343be3-ee13-4cbf-888c-1b0073f643c4)
+---
 
 ## 🛠 Key Features
 - **Rides Management:** 🚘 Users can request rides, offer rides, and manage their travel with ease.
@@ -60,16 +71,6 @@ TrempBoss leverages the MERN Stack, integrating various technologies for a seaml
   ```bash
   pnpm run build
   ```
-
-## 📸 Screenshots
-![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/0ce4fbfc-d632-4e4b-8101-b3c0f8bd1e04)
----
-![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/90a32a73-6384-4395-a79f-721e4934e505)
----
-![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/0ed2a1cf-99ee-4264-87cb-93e02f655cfd)
----
-![image](https://github.com/ElyahuAnavi/TrempBoss-server/assets/137146370/fe343be3-ee13-4cbf-888c-1b0073f643c4)
----
 
 
 ## 📦 Dependencies
