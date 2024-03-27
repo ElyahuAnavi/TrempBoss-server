@@ -138,11 +138,5 @@ TrempBoss implements a multi-layered security strategy to ensure robust protecti
 ### Best Practices
 - **Security Audits and Updates:** Regular security audits, dependency updates, and adherence to security best practices ensure that the app remains protected against emerging threats.
 
-## 🤝 Contributing
-Encourage contributions and provide guidelines for how to get involved with the project.
-
-## 📜 License
-Specify the project's license, outlining usage rights and limitations.
-
 ---
 
