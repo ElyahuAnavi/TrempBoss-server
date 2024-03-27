@@ -4,16 +4,17 @@
 # 🚗 TrempBoss: A Rideshare Management App in Israel
 
 ## Table of Contents
-1. [About the Project](#about-the-project)
-2. [Key Features](#key-features)
-3. [Technologies and Structure](#technologies-and-structure)
-4. [System Architecture](#system-architecture)
-5. [Getting Started](#getting-started)
-6. [Screenshots](#screenshots)
-7. [Dependencies](#dependencies)
-8. [Security](#security)
-9. [Contributing](#contributing)
-10. [License](#license)
+
+1. [About the Project](#-about-the-project)
+2. [Key Features](#-key-features)
+3. [Technologies and Structure](#-technologies-and-structure)
+4. [System Architecture](#-system-architecture)
+5. [Getting Started](#-getting-started)
+6. [Screenshots](#-screenshots)
+7. [Dependencies](#-dependencies)
+8. [Security](#-security)
+9. [Contributing](#-contributing)
+10. [License](#-license)
 
 ## 📖 About the Project
 TrempBoss is an innovative 🌟 application designed to facilitate hitchhiking, known locally in Israel as "tremp." It streamlines the process of connecting drivers with passengers, offering a user-friendly platform for ride coordination, communication, and private ride-sharing group management.
