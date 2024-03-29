@@ -137,5 +137,82 @@ TrempBoss implements a multi-layered security strategy to ensure robust protecti
 ### Best Practices
 - **Security Audits and Updates:** Regular security audits, dependency updates, and adherence to security best practices ensure that the app remains protected against emerging threats.
 
+## API Endpoints Overview 🚏
+
+After launching the server, the API endpoints for TrempBoss can be accessed at `http://localhost:5500/api/` or `https://drab-pink-iguana.cyclic.app/api/`.
+
+These endpoints enable comprehensive user management within TrempBoss, allowing for registration, profile management, group interactions, and administrative functions.
+
+### User Endpoints
+- **POST /api/users/register:** Register a new user.
+- **POST /api/users/login:** Log in an existing user.
+- **POST /api/users/request-password-reset:** Request a password reset link.
+- **POST /api/users/reset-password:** Reset the user password.
+- **GET /api/users/:id:** Retrieve a specific user by ID.
+- **PATCH /api/users/update/:id:** Update a user's information.
+- **POST /api/users/update-image/:id:** Upload or update a user's profile image.
+- **DELETE /api/users/delete/:id:** Delete a user account.
+- **POST /api/users/my-groups:** Retrieve groups associated with the user.
+- **POST /api/users/add-notification-token:** Add a notification token for the user.
+- **GET /api/users/all:** Retrieve all users (Admin only).
+- **POST /api/users/admin-add-user:** Add a new user as an admin (Admin only).
+- **PUT /api/users/update-user/:id:** Update any user's details as an admin (Admin only).
+
+### User Group Endpoints
+- **DELETE /api/user-groups/cancel-group-request:** Cancel a pending group join request.
+- **PUT /api/user-groups/approve-group-request:** Approve a user's request to join a group.
+- **POST /api/user-groups/get-users-request:** Retrieve group join requests made by the user.
+
+### Admin User Endpoints
+- **POST /api/admin/login:** Admin login.
+- **GET /api/admin/validateToken:** Validate admin session token.
+- **GET /api/admin/all:** Retrieve all admin users.
+- **GET /api/admin/me:** Fetch current admin user's details.
+- **GET /api/admin/:id:** Get details of a specific admin user.
+- **POST /api/admin/add:** Add a new admin user.
+- **DELETE /api/admin/delete/:id:** Delete an admin user.
+- **PUT /api/admin/markDeleted/:id:** Soft delete an admin user.
+- **PUT /api/admin/updateAdmin/:id:** Update an admin user's details.
+
+### Group Request Endpoints
+- **POST /api/group-request/add:** Submit a new group join request.
+- **POST /api/group-request/upload-image/:id:** Upload an image for the group request.
+- **POST /api/group-request/get-user-requests:** Get user-specific group requests (Admin only).
+- **GET /api/group-request/unapproved-requests:** Fetch unapproved group requests (Admin only).
+- **PUT /api/group-request/approve/:id:** Approve a group request (Admin only).
+- **PUT /api/group-request/deny/:id:** Deny a group request (Admin only).
+
+### Group Endpoints
+- **GET /api/groups/getById/:id:** Retrieve group details by ID.
+- **POST /api/groups/groups-user-not-connected:** Get groups a user is not connected to.
+- **GET /api/groups/groups-user-connected/:user_id:** Get groups a user is connected to.
+- **PUT /api/groups/join-group-request:** Request to join a group.
+- **PUT /api/groups/disconnect-from-group:** Leave a group.
+- **PUT /api/groups/add-admin-to-group:** Add an admin to a group.
+- **POST /api/groups/all-groups-with-user-status:** Get all groups with user status.
+- **PUT /api/groups/update:** Update group details.
+- **POST /api/groups/upload-image/:id:** Upload a group image.
+
+### KPI Endpoints (Admin only).
+- **POST /api/kpis/get-all-top-five:** Retrieve top five KPIs.
+- **POST /api/kpis/get-people-and-tremps-counts:** Get counts of people and tremps.
+- **POST /api/kpis/get-percentages-per-type:** Get ride and trip count percentages.
+- **POST /api/kpis/get-hitchhiker-monthly-counts-by-gender:** Get monthly hitchhiker counts by gender.
+- **GET /api/kpis/get-inactive-groups:** Fetch inactive groups.
+- **GET /api/kpis/get-most-active-groups:** Get most active groups.
+
+### Tremp Endpoints
+- **POST /api/tremps/add:** Create a tremp.
+- **POST /api/tremps/tremps-by-filters:** Retrieve tremps by filters.
+- **PUT /api/tremps/join-ride:** Join a ride/tremp.
+- **POST /api/tremps/user-tremps:** Get tremps for a user.
+- **PUT /api/tremps/approve-user-in-tremp:** Approve user in a tremp.
+- **GET /api/tremps/users-in-tremp/:tremp_id:** Get users in a tremp.
+- **POST /api/tremps/approved-tremps:** Get approved tremps.
+- **PUT /api/tremps/delete-tremp:** Delete a tremp.
+- **PUT /api/tremps/tremp-completed:** Mark tremp as completed.
+- **POST /api/tremps/tremp-history:** Get tremp history.
+
+These endpoints facilitate the management and interaction within the TrempBoss platform, ensuring a comprehensive experience for users and administrators.
 ---
 
